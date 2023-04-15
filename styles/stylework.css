@@ -344,6 +344,25 @@
     font-size: 30px;
 }
 
+.btnGreen {
+  background-color: #99b79c; 
+  color: white; 
+  border: 5px solid #99b79c;
+  border-radius: 6px; 
+  width: 350px;
+  height: 200px;
+  font-size: 30px;
+  margin-right: 40px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+/* 悬停样式 */
+.btnGreen:hover {
+  background-color: white;
+  color: #99b79c;
+  font-size: 30px;
+}
+
 
 main section.table h1.text{
     margin-top: 20px;
