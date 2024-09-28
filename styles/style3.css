@@ -139,8 +139,8 @@ main section.picture img {
 }
 
 main section.picture div.blueRect {
-  width: 43.5vw;
-  height: 28vw;
+  width: 43vw;
+  height: 26vw;
   background-color: #9CADCE;
   position: absolute;
   top: 40px;

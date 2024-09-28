@@ -2,7 +2,7 @@
   padding: 0;
   margin: 0;
   -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+          box-sizing: border-box;
   font-family: "Noto Sans TC", sans-serif;
 }
 
@@ -27,14 +27,14 @@ header nav {
 
 header nav ul {
   padding: 1.5rem;
-  width: 50%;
+  width: 60%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   list-style-type: none;
   -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 header nav ul li {
@@ -51,27 +51,18 @@ main {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
+      flex-wrap: wrap;
   margin: 0.5rem;
-}
-
-a:hover {
-  border-bottom-color: transparent;
-  color: #e9837e !important;
 }
 
 main section.left {
   -webkit-box-flex: 3;
-  -ms-flex: 3 1 500px;
-  flex: 3 1 500px;
+      -ms-flex: 3 1 500px;
+          flex: 3 1 500px;
 }
 
 main section.left h1 {
   font-size: 4rem;
-  color: #e9837e;
-}
-main section.left h2 {
-  font-size: 2rem;
   color: #e9837e;
 }
 
@@ -82,8 +73,8 @@ main section.left p {
 
 main section.right {
   -webkit-box-flex: 1;
-  -ms-flex: 1 1 550px;
-  flex: 1 1 550px;
+      -ms-flex: 1 1 550px;
+          flex: 1 1 550px;
   position: relative;
 }
 
@@ -94,7 +85,7 @@ main section.right img {
   top: 35vh;
   right: 5vw;
   -webkit-transform: translateY(-50%);
-  transform: translateY(-50%);
+          transform: translateY(-50%);
 }
 
 main section.right .movie {
@@ -105,8 +96,8 @@ main section.right .movie {
 
 main section.table {
   -webkit-box-flex: 3;
-  -ms-flex: 3 1 500px;
-  flex: 3 1 500px;
+      -ms-flex: 3 1 500px;
+          flex: 3 1 500px;
   padding: 2rem;
 }
 
@@ -130,8 +121,8 @@ main section.table table tr:hover {
 
 main section.picture {
   -webkit-box-flex: 1;
-  -ms-flex: 1 1 580px;
-  flex: 1 1 580px;
+      -ms-flex: 1 1 580px;
+          flex: 1 1 580px;
   position: relative;
 }
 
@@ -151,8 +142,8 @@ main section.picture div.pinkRect {
 
 main section.form {
   -webkit-box-flex: 1;
-  -ms-flex: 1 1 500px;
-  flex: 1 1 500px;
+      -ms-flex: 1 1 500px;
+          flex: 1 1 500px;
 }
 
 main section.form form {
@@ -162,10 +153,10 @@ main section.form form {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -ms-flex-pack: distribute;
-  justify-content: space-around;
+      justify-content: space-around;
   padding: 1rem;
 }
 
@@ -194,8 +185,8 @@ main section.form form div textarea {
 
 main section.form form button {
   -ms-flex-item-align: center;
-  -ms-grid-row-align: center;
-  align-self: center;
+      -ms-grid-row-align: center;
+      align-self: center;
   background-color: #e9837e;
   color: white;
   border: none;
@@ -212,14 +203,14 @@ main div.line {
 
 main section.contact {
   -webkit-box-flex: 1;
-  -ms-flex: 1 1 550px;
-  flex: 1 1 550px;
+      -ms-flex: 1 1 550px;
+          flex: 1 1 550px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   padding: 2rem;
 }
 
@@ -238,8 +229,8 @@ main section.contact div.content h2 {
   header nav ul {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
   header nav ul li {
     padding: 0.5rem 0rem;
@@ -250,17 +241,17 @@ main section.contact div.content h2 {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
     margin: 1rem;
   }
   main section.right img {
     position: static;
     -webkit-transform: none;
-    transform: none;
+            transform: none;
     width: 30vw;
     height: 30vw;
   }
@@ -269,11 +260,11 @@ main section.contact div.content h2 {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   main section.picture img {
     width: 50vw;
@@ -286,7 +277,4 @@ main section.contact div.content h2 {
 footer a {
   padding: 1rem;
 }
-
-
-
 /*# sourceMappingURL=style.css.map */
